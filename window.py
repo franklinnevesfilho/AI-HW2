@@ -175,9 +175,6 @@ class Window:
         else:
             self.show_answer("No Solution", "No solution found")
 
-        # Optionally print the updated grid to the console to check values
-        print("Updated grid:", self.grid)
-
     def show_answer(self, text: str, answer: str):
         # show a new window with the answer
         answer_window = tk.Toplevel(self.root)
