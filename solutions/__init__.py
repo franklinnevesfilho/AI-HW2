@@ -1,2 +1,2 @@
-from .solution1 import count_islands
-from .solution2 import solve_puzzle
+from .island_counter import island_count
+from .sliding_puzzle import sliding_puzzle

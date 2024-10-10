@@ -16,7 +16,7 @@ def _get_distance(grid) -> int:
             distance += abs(x - i) + abs(y - j)
     return distance
 
-def solve_puzzle(grid) -> int | None:
+def sliding_puzzle(grid) -> int | None:
     pq = PriorityQueue()
     seen = set()
     if grid == _target:

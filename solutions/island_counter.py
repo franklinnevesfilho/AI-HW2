@@ -54,7 +54,7 @@ def _dfs(grid, i, j):
 
 
 
-def count_islands(grid=None, method='dfs'):
+def island_count(grid=None, method='dfs'):
     if grid is None:
         # make copy of island_map
         grid = [row.copy() for row in island_map]
